@@ -10,10 +10,14 @@ import { SmallText } from "./components/typography/SmallText";
 import { MutedText } from "./components/typography/MutedText";
 import { ListText } from "./components/typography/ListText";
 import { LinkText } from "./components/typography/LinkText";
+import { PrimaryButton } from "./components/PrimaryButton";
+import { SecondaryButton } from "./components/SecondaryButton";
 
 function App() {
   return (
     <>
+      <PrimaryButton>Get started</PrimaryButton>
+      <SecondaryButton>Cancel</SecondaryButton>
       <Heading1>Heading 1: Taxing Laughter: The Joke Tax Chronicles</Heading1>
       <Heading2>Heading 2: The People of the Kingdom</Heading2>
       <Heading3>Heading 3: The Joke Tax</Heading3>
