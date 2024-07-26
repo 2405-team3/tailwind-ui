@@ -1,6 +1,6 @@
 import { Switch, Route } from "wouter";
 import { Navigation } from "./components/Navigation.tsx";
-import { KnowledgeBases } from "./components/pages/KnowledgeBases.tsx";
+import { PageKnowledgeBases } from "./components/pages/PageKnowledgeBases.tsx";
 
 function App() {
   return (
@@ -8,7 +8,7 @@ function App() {
       <Navigation />
       <main className="ml-72 p-12">
         <Switch>
-          <Route path="/knowledge-bases" component={KnowledgeBases} />
+          <Route path="/knowledge-bases" component={PageKnowledgeBases} />
         </Switch>
       </main>
     </>
