@@ -16,6 +16,7 @@ import {
 } from "@/components/ui/select";
 import { Button } from "@/components/ui/button";
 import { Dispatch, SetStateAction } from "react";
+import { Overlay } from "./Overlay";
 
 interface ModalKnowledgeBaseProps {
   setModalVisible: Dispatch<SetStateAction<boolean>>;
@@ -41,10 +42,7 @@ export function ModalKnowledgeBase({
 
   return (
     <>
-      <div
-        className="z-20 absolute top-0 left-0 h-screen w-screen bg-black/[0.3]"
-        onClick={handleOverlayClick}
-      ></div>
+      <Overlay handleOverlayClick={handleOverlayClick} />
       <Card className="min-w-0.5 max-w-2xl fixed top-1/2 -translate-x-1/2 -translate-y-1/2 left-1/2 z-20">
         <CardHeader>
           <CardTitle>Create new knowledge base</CardTitle>
