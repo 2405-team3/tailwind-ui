@@ -10,7 +10,22 @@
       "chunk_overlap": "256",
       "separator": ",",
       "llm": "",
-      "files": ["path/to/file1.txt", "path/to/file2.txt"]
+      "files": [
+        {
+          "id": 1,
+          "file_type": "txt",
+          "name": "file1.txt",
+          "source": "path/to/file1.txt",
+          "date": "2024-07-26"
+        },
+        {
+          "id": 2,
+          "file_type": "txt",
+          "name": "file2.txt",
+          "source": "path/to/file2.txt",
+          "date": "2024-07-26"
+        }
+      ]
     },
     {
       "id": 2,
@@ -22,7 +37,22 @@
       "chunk_overlap": "512",
       "separator": ";",
       "llm": "gpt-3",
-      "files": ["path/to/file3.csv", "path/to/file4.csv"]
+      "files": [
+        {
+          "id": 3,
+          "file_type": "csv",
+          "name": "file3.csv",
+          "source": "path/to/file3.csv",
+          "date": "2024-07-26"
+        },
+        {
+          "id": 4,
+          "file_type": "csv",
+          "name": "file4.csv",
+          "source": "path/to/file4.csv",
+          "date": "2024-07-26"
+        }
+      ]
     },
     {
       "id": 3,
@@ -34,7 +64,22 @@
       "chunk_overlap": "1024",
       "separator": "|",
       "llm": "gpt-2",
-      "files": ["path/to/file5.docx", "path/to/file6.docx"]
+      "files": [
+        {
+          "id": 5,
+          "file_type": "docx",
+          "name": "file5.docx",
+          "source": "path/to/file5.docx",
+          "date": "2024-07-26"
+        },
+        {
+          "id": 6,
+          "file_type": "docx",
+          "name": "file6.docx",
+          "source": "path/to/file6.docx",
+          "date": "2024-07-26"
+        }
+      ]
     },
     {
       "id": 4,
@@ -46,7 +91,22 @@
       "chunk_overlap": "2048",
       "separator": ",",
       "llm": "gpt-3",
-      "files": ["path/to/file7.pdf", "path/to/file8.pdf"]
+      "files": [
+        {
+          "id": 7,
+          "file_type": "pdf",
+          "name": "file7.pdf",
+          "source": "path/to/file7.pdf",
+          "date": "2024-07-26"
+        },
+        {
+          "id": 8,
+          "file_type": "pdf",
+          "name": "file8.pdf",
+          "source": "path/to/file8.pdf",
+          "date": "2024-07-26"
+        }
+      ]
     },
     {
       "id": 5,
@@ -58,7 +118,22 @@
       "chunk_overlap": "256",
       "separator": ";",
       "llm": "",
-      "files": ["path/to/file9.jpg", "path/to/file10.jpg"]
+      "files": [
+        {
+          "id": 9,
+          "file_type": "jpg",
+          "name": "file9.jpg",
+          "source": "path/to/file9.jpg",
+          "date": "2024-07-26"
+        },
+        {
+          "id": 10,
+          "file_type": "jpg",
+          "name": "file10.jpg",
+          "source": "path/to/file10.jpg",
+          "date": "2024-07-26"
+        }
+      ]
     },
     {
       "id": 6,
@@ -70,7 +145,7 @@
       "chunk_overlap": "512",
       "separator": "|",
       "llm": "gpt-2",
-      "files": ["path/to/file11.xlsx", "path/to/file12.xlsx"]
+      "files": []
     },
     {
       "id": 7,
@@ -82,7 +157,7 @@
       "chunk_overlap": "1024",
       "separator": ",",
       "llm": "gpt-3",
-      "files": ["path/to/file13.ppt", "path/to/file14.ppt"]
+      "files": []
     },
     {
       "id": 8,
@@ -94,7 +169,7 @@
       "chunk_overlap": "2048",
       "separator": ";",
       "llm": "gpt-2",
-      "files": ["path/to/file15.mp4", "path/to/file16.mp4"]
+      "files": []
     },
     {
       "id": 9,
@@ -106,89 +181,7 @@
       "chunk_overlap": "1024",
       "separator": "|",
       "llm": "gpt-3",
-      "files": ["path/to/file17.gif", "path/to/file18.gif"]
-    }
-  ],
-  "files": [
-    {
-      "id": 1,
-      "file_type": "txt",
-      "name": "file1.txt",
-      "source": "path/to/file1.txt",
-      "date": "2024-07-26",
-      "knowledge_base_id": 1
-    },
-    {
-      "id": 2,
-      "file_type": "txt",
-      "name": "file2.txt",
-      "source": "path/to/file2.txt",
-      "date": "2024-07-26",
-      "knowledge_base_id": 1
-    },
-    {
-      "id": 3,
-      "file_type": "csv",
-      "name": "file3.csv",
-      "source": "path/to/file3.csv",
-      "date": "2024-07-26",
-      "knowledge_base_id": 2
-    },
-    {
-      "id": 4,
-      "file_type": "csv",
-      "name": "file4.csv",
-      "source": "path/to/file4.csv",
-      "date": "2024-07-26",
-      "knowledge_base_id": 2
-    },
-    {
-      "id": 5,
-      "file_type": "docx",
-      "name": "file5.docx",
-      "source": "path/to/file5.docx",
-      "date": "2024-07-26",
-      "knowledge_base_id": 3
-    },
-    {
-      "id": 6,
-      "file_type": "docx",
-      "name": "file6.docx",
-      "source": "path/to/file6.docx",
-      "date": "2024-07-26",
-      "knowledge_base_id": 3
-    },
-    {
-      "id": 7,
-      "file_type": "pdf",
-      "name": "file7.pdf",
-      "source": "path/to/file7.pdf",
-      "date": "2024-07-26",
-      "knowledge_base_id": 4
-    },
-    {
-      "id": 8,
-      "file_type": "pdf",
-      "name": "file8.pdf",
-      "source": "path/to/file8.pdf",
-      "date": "2024-07-26",
-      "knowledge_base_id": 4
-    },
-    {
-      "id": 9,
-      "file_type": "jpg",
-      "name": "file9.jpg",
-      "source": "path/to/file9.jpg",
-      "date": "2024-07-26",
-      "knowledge_base_id": 5
-    },
-    {
-      "id": 10,
-      "file_type": "jpg",
-      "name": "file10.jpg",
-      "source": "path/to/file10.jpg",
-      "date": "2024-07-26",
-      "knowledge_base_id": 5
+      "files": []
     }
   ]
 }
